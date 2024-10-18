@@ -1,0 +1,32 @@
+{
+  "name": "StaralsOreTester",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "SOTShared": {
+        "$path": "src/Shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "SOTServer": {
+        "$path": "src/Server"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "SOTClient": {
+          "$path": "src/Client"
+        }
+      }
+    },
+
+    "Workspace": {
+      "SOTWorkspace": {
+        "$path": "src/Workspace"
+      }
+    }
+  }
+}
